@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page</title>
+    <style>
+        .bar {
+            background-color: red;
+            animation-name: barb;
+            animation-duration: 2s;
+            animation-iteration-count: 1;
+        }
+        body{
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            background-attachment: fixed;
+        }
+
+        @keyframes barb {
+            0% {
+                width: 25vw;
+                height: 5px;
+            }
+
+            50% {
+                width: 75vw;
+                height: 5px;
+            }
+
+            100% {
+                width: 100vw;
+                height: 5px;
+            }
+        }
+    </style>
+</head>
+<header>
+    <div class="bar">
+    </div>
+</header>
+
+<body background="cg.jpg">
+    <center>
+        <strong><h1>You have successfully registered</h1></strong>
+    </center>
+    <hr>
+    <strong><p>Thank you for registering.We will connect with you very shortly.............. :)</p></strong>
+</body>
+
+</html>
